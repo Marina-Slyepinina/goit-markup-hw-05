@@ -516,6 +516,7 @@ address .contacts-list {
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    line-height: 1.5
 }
 
 .telegram-svg {
