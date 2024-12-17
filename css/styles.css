@@ -693,6 +693,10 @@ address .contacts-list {
     color: #4d5ae5;
 }
 
+.checkbox-icon {
+    display: block;
+}
+
 .new-modal-checkbox {
     width: 16px;
     height: 16px;
@@ -705,8 +709,7 @@ address .contacts-list {
     fill: transparent;
 }
 
-
-.modal-checkbox:checked .new-modal-checkbox {
+.modal-checkbox:checked + .modal-label-privacy>.new-modal-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
